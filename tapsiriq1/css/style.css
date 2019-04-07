@@ -1,0 +1,207 @@
+.headerbg{
+    height: 450px;
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+
+
+.headerh1{
+    border-bottom: 3px solid white;
+    display: flex;
+    justify-content: center;
+}
+.headerh1 h1{
+    font-weight: 600;
+    text-transform: none;
+    font-family: "Pacifico", cursive;
+    font-size: 60px;
+    color:white;
+    margin-top: 120px
+    
+}
+.headercontent{
+    width: 100%
+}
+header p {
+    color: #ddd;
+    letter-spacing: 2px;
+}
+header p a{
+    color: #ddd;
+    border-bottom: 1px dotted #ddd;
+    
+}
+header p a:hover{
+    border: none;
+    text-decoration: none;
+    color: #EF6480
+}
+main{
+    background: #f4f4f4;
+}
+footer{
+    background: #f4f4f4;
+}
+.manga{
+    padding: 70px 0px;
+}
+.mangaicon{
+    border: 2px solid #444;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mangaicon i {
+    font-size: 40px;
+    color: #444;
+}
+.manga h3{
+    letter-spacing: 4px;
+    color: #444;
+}
+.manga p {
+    color: gray;
+}
+.manga a{
+    border: 2px solid #444;
+    border-radius: 5px;
+    padding: 10px 22px;
+    color: #444;
+    letter-spacing: 3px;
+}
+.manga a:hover{
+    color: #EF6480;
+    border-color: #EF6480;
+    text-decoration: none;
+}
+.fourcard{
+    width: 48.5%;
+    height: 500px;
+
+}
+.cardhover{
+    overflow: hidden;
+    position: relative;
+    height: 277.5px;
+}
+.fourcard img{
+    width: 100%;
+    height: 100%;
+}
+.margin{
+    margin-left: 3%;
+}
+.overlay{
+    width: 100%;
+    height: 100%;;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(68, 68, 68, 0.384);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+.overlay h4{
+    color: white;
+}
+.fourcardflex{
+    display: flex;
+    justify-content: center;
+}
+.fourcard p{
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.fourcardbutton a{
+
+   
+    border: 2px solid #444;
+    border-radius: 5px;
+    padding: 10px 22px;
+    color: #444;
+    letter-spacing: 3px;
+
+}
+.fourcardbutton a:hover{
+    color: #EF6480;
+    border-color: #EF6480;
+    text-decoration: none; 
+}
+.overlay a:hover {
+    text-decoration: none;
+}
+.footerdisplay{
+    display: flex;
+    justify-content: center;
+}
+.footerbutton{
+    border: 2px solid #444;
+    border-radius: 5px;
+    padding: 10px 22px;
+    color: #444;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+.footerbutton:hover{
+    color: #EF6480;
+    border-color: #EF6480;
+    text-decoration: none; 
+}
+.footerline{
+    border-bottom: 2px solid #444;
+}
+footer i {
+    color: #444;
+}
+footer i:hover{
+    color: #EF6480;
+}
+.info p {
+    font-size: 13px;
+    color: gray;
+}
+.info p  a{
+    color: gray;
+    border-bottom: 1px dotted gray;
+}
+.info p  a:hover{
+    text-decoration: none;
+    color: #EF6480;
+    border: none;
+}
+@media screen and (max-width: 768px){
+    .fourcard{
+        width: 100%;
+    }
+    .margin{
+        margin-left:0;
+    }
+    .cardpadding{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 364px){
+    .fourcard{
+        height: 550px;
+    }
+    .headerh1{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 270px){
+    .fourcard{
+        height: 600px;
+    }
+}
