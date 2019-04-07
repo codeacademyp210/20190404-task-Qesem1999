@@ -5,23 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 <body>
-    
     <div class="container">
         <div class="row">
-            <div class="col-8 offset-2 imagediv mt-5">
-                <img src="img/pic03.jpg — ярлык.lnk" alt="" class="image1 ">
-                <img src="img/pic04.jpg — ярлык.lnk" alt="" class="image2 active-next-item">
-                <img src="img/pic02.jpg — ярлык.lnk" alt="" class="image3 ">
+            <div class="col-md-8 offset-md-2 my-5">
+                <form name="userForm" onsubmit="return validateForm()">
+                    <div class="form-group">
+                        <input type="text" name="Manufacturer" class="form-control" placeholder="Enter Manufacturer">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="Model" class="form-control" placeholder="Enter Model">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" name="year" class="form-control" placeholder="Enter Release year">
+                    </div>
+
+                    <input type="submit" value="Add" class="btn btn-primary">
+                </form>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 offset-3 mt-5">
+                <h1>Click for editing</h1>
             </div>
-            <i class="fas fa-chevron-right arrowright"></i>
-            <i class="fas fa-chevron-left arrowleft"></i>
+            <div class="col-12">
+                <ul class="list-group" id="car-list">
+                   
+                </ul>
+            </div>
         </div>
     </div>
+
 
 
 
